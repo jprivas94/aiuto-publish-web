@@ -1,0 +1,30 @@
+{
+  "name": "aiuto-publish-web",
+  "version": "1.0.0",
+  "description": "VideoFlow Architect Pro - Video upload and analysis platform",
+  "main": "server/server/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client:dev\"",
+    "server": "node server/server/server.js",
+    "client:dev": "cd client && npm run dev",
+    "client:build": "cd client && npm run build",
+    "build": "npm run client:build",
+    "preview": "cd client && npm run preview",
+    "start": "node server/server/server.js"
+  },
+  "keywords": [
+    "video",
+    "upload",
+    "analysis"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
