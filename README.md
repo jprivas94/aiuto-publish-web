@@ -1,15 +1,3 @@
-# VideoFlow Architect Pro
-
-Plataforma de carga y análisis de videos con arquitectura moderna.
-
-## 🚀 Características
-
-- ✅ Carga de videos con barra de progreso
-- ✅ Análisis automático de contenido
-- ✅ Galería de videos con metadatos
-- ✅ Servidor Express con soporte para CORS
-- ✅ Interfaz moderna con Tailwind CSS y React
-
 ## 📋 Requisitos Previos
 
 - Node.js 16+ y npm
@@ -118,4 +106,4 @@ ISC
 
 ## 👤 Autor
 
-Desarrollado para portafolio profesional
+jprivas94
